@@ -1,0 +1,12 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  padding: 30px !important;
+}
+.radios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}

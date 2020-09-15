@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+.transactionsGreen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  background-color: green;
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+.transactionsRed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  background-color: rgb(235, 82, 82);
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+
+.flexRow {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(184, 182, 182);
+  padding: 4px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.lancamentoFiltro {
+  display: flex;
+  align-items: center;
+}
+.inputFilter {
+  width: 650px !important;
+  margin-left: 20px !important;
+}
+.day {
+  font-size: 2em;
+  margin-right: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.dayCategoryDescription {
+  display: flex;
+}
+.valueEditDelete {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 20px;
+}
